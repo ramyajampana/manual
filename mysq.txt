@@ -1,0 +1,31 @@
+create database testing;
+
+use testing;
+
+create table emp(id int(10),name varchar(20),salary float(10,2));------
+
+alter table emp add city varchar(20);------adding extra column 
+
+alter table emp modify city varchar(30);------modify datatype
+
+alter table emp  rename column  salary  to salaries;------renaming the column name
+
+alter table emp change column salary sal int(20);------renaming the column name
+
+alter table emp rename to empp;------renaming the table name
+
+alter table emp drop column city;------deleting column 
+
+select count(*) from information_schema.columns where table_name="emp";-------count column count
+
+alter table dept add unique(dname);--------after creating adding unique to column by using add
+
+alter table d1 modify dname varchar(20) unique;--------after creating adding unique to column by using modify
+
+update empp set name="ram",salaries=7777 where id=1;-------changing the row at a time
+
+update empp set salaries=0;--------updating at a time of column data
+
+alter table normaldata add city varchar(20) not null unique;------at a time 2 constraints are added to one column
+
+ALTER TABLE ram ADD PRIMARY KEY (ID);-----------------------add primary key to existing table
