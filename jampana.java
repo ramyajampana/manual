@@ -40,15 +40,6 @@ $ git push
 
 rj21189@OJAS-DD459 MINGW64 ~/OneDrive - Ojas Innovative Technologies Pvt Lt/Desktop/manual (main)
 $ git push
-fatal: User canceled device code authentication
-error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
-Password for 'https://ramyajampana@github.com':
-remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-fatal: Authentication failed for 'https://github.com/ramyajampana/manual.git/'
-
-rj21189@OJAS-DD459 MINGW64 ~/OneDrive - Ojas Innovative Technologies Pvt Lt/Desktop/manual (main)
-$ git push
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 12 threads
@@ -62,13 +53,4 @@ rj21189@OJAS-DD459 MINGW64 ~/OneDrive - Ojas Innovative Technologies Pvt Lt/Desk
 $ git push
 Everything up-to-date
 
-rj21189@OJAS-DD459 MINGW64 ~/OneDrive - Ojas Innovative Technologies Pvt Lt/Desktop/manual (main)
-$ touch file jampana.html
 
-rj21189@OJAS-DD459 MINGW64 ~/OneDrive - Ojas Innovative Technologies Pvt Lt/Desktop/manual (main)
-$ touch file jampana.java
-
-rj21189@OJAS-DD459 MINGW64 ~/OneDrive - Ojas Innovative Technologies Pvt Lt/Desktop/manual (main)
-$ ^C
-
-rj21189@OJAS-DD459 MINGW64 ~/OneDrive - Ojas Innovative Technologies Pvt Lt/Desktop/manual (main)
