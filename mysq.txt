@@ -29,3 +29,4 @@ update empp set salaries=0;--------updating at a time of column data
 alter table normaldata add city varchar(20) not null unique;------at a time 2 constraints are added to one column
 
 ALTER TABLE ram ADD PRIMARY KEY (ID);-----------------------add primary key to existing table
+ramya jampana
